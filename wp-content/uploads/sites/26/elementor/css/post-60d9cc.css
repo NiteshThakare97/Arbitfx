@@ -153,6 +153,10 @@ body:not(.rtl) .elementor-60 .elementor-element.elementor-element-816e523 .eleme
 
 .elementor-60 .elementor-element.elementor-element-816e523 .elementor-icon-list-text {
     transition: color 0.3s;
+    color: #d3dce1;
+}
+.elementor-element-a74b85f p {
+    color: #d3dce1;
 }
 
 .elementor-60 .elementor-element.elementor-element-82f16a0>.elementor-element-populated {
