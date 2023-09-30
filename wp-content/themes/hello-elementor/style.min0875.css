@@ -497,3 +497,13 @@ ul {
     vertical-align: baseline;
     background: transparent
 }
+
+#scroll-top {
+    background: #bd6033;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 5px;
+    position: absolute;
+    right: 42px;
+    top: 220px;
+}

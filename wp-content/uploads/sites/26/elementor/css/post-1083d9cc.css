@@ -1887,6 +1887,13 @@
     margin: auto;
 }
 
+#whychooseus{
+    transition: 1s;
+}
+#whychooseus:hover {
+    transform: scale(1.03);
+}
+
 .elementor-element-588f8e6 .elementskit-info-box-icon img, #whychooseus .elementskit-info-box-icon img {
     transition: 1s;
 }
