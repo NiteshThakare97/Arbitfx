@@ -5,7 +5,15 @@
 
 .elementor-35 .elementor-element.elementor-element-4a4e509 {
 	padding: 5px 5px 5px 5px;
-	background: linear-gradient(45deg, #0c0306 -8%, #22133a, #112851, #040e18);
+	background: linear-gradient(45deg, #0c0306 -23%, #112851, #22133a, #112851, #040e18);
+	/* background: linear-gradient(45deg, #0c0306 -8%, #22133a, #112851, #040e18); */
+	/* I have added to make it float  */
+	position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.elementor-1083, .elementor-751, .elementor-177 {
+	margin-top: 99px;
 }
 
 .elementor-35 .elementor-element.elementor-element-d39c7fa .elementor-menu-toggle {
@@ -148,11 +156,11 @@
 	}
 
 	.elementor-35 .elementor-element.elementor-element-922b1f2 {
-		width: 75%;
+		width: 70%;
 	}
 
 	.elementor-35 .elementor-element.elementor-element-c9f1b73 {
-		width: 15%;
+		width: 20%;
 	}
 }
 
@@ -193,3 +201,4 @@
 		word-spacing: var(--e-global-typography-520c191-word-spacing);
 	}
 }
+

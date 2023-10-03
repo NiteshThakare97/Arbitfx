@@ -476,15 +476,15 @@ body .elementor-60 .elementor-element.elementor-element-0910244 .elementor-label
     }
 
     .elementor-60 .elementor-element.elementor-element-f028106 {
-        width: 50%;
+        width: 43%;
     }
 
     .elementor-60 .elementor-element.elementor-element-7e870c8 {
-        width: 54%;
+        width: 25%;
     }
 
     .elementor-60 .elementor-element.elementor-element-82f16a0 {
-        width: 10%;
+        width: 25%;
     }
 
     .elementor-60 .elementor-element.elementor-element-5ab316c {
@@ -524,4 +524,16 @@ body .elementor-60 .elementor-element.elementor-element-0910244 .elementor-label
     .elementor-60 .elementor-element.elementor-element-5ab316c {
         width: 100%;
     }
+}
+
+.elementor-element-6bb084c .elementor-widget-container {
+	display: flex;
+    justify-content: space-evenly;
+}
+.elementor-element-6bb084c .elementor-widget-container span {
+    color: #d3dce1;
+}
+
+.elementor-element-3db33cf h4 {
+    text-align: center;
 }
