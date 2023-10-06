@@ -5,7 +5,8 @@
 
 .elementor-35 .elementor-element.elementor-element-4a4e509 {
 	padding: 5px 5px 5px 5px;
-	background: linear-gradient(45deg, #0c0306 -23%, #112851, #22133a, #112851, #040e18);
+	background: #040512;
+	/* background: linear-gradient(45deg, #0c0306 -23%, #112851, #22133a, #112851, #040e18); */
 	/* background: linear-gradient(45deg, #0c0306 -8%, #22133a, #112851, #040e18); */
 	/* I have added to make it float  */
 	position: fixed;
