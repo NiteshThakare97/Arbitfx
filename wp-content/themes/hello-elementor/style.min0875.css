@@ -432,7 +432,7 @@ table th {
     padding: 15px;
     line-height: 1.5;
     vertical-align: top;
-    border: 1px solid #ccc
+    border: 1px solid #2a3464;
 }
 
 table th {
@@ -450,17 +450,17 @@ table colgroup+thead tr:first-child td,
 table colgroup+thead tr:first-child th,
 table thead:first-child tr:first-child td,
 table thead:first-child tr:first-child th {
-    border-top: 1px solid #ccc
+    border-top: 1px solid #2a3464;
 }
 
-table tbody>tr:nth-child(odd)>td,
+/* table tbody>tr:nth-child(odd)>td,
 table tbody>tr:nth-child(odd)>th {
     background-color: #f7f7f7
-}
+} */
 
 table tbody tr:hover>td,
 table tbody tr:hover>th {
-    background-color: #e9e9e9
+    background-color: #232c4e;
 }
 
 table tbody+tbody {
@@ -510,4 +510,12 @@ ul {
 
 .elementor-element-82f16a0 .elementor-widget .elementor-icon-list-icon i{
     font-size: 8px;
+}
+
+#features-earn {
+    display: flex;
+    margin-bottom: 30px;
+}
+tbody {
+    text-align: center;
 }
