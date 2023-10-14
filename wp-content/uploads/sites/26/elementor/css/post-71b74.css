@@ -350,6 +350,12 @@ h1.entry-title {
     }
 }
 
+@media only screen and (min-width: 1600px) {
+    #earn-with-us .elementor-element-016f2f3{
+        padding: 103px 0px !important;
+    }
+}
+
 @media only screen and (min-width: 1000px) {
     #earn-with-us .elementor-element-a41a77d {
         padding-left: 2em;
@@ -376,6 +382,43 @@ h1.entry-title {
     }
     #earn-with-us .elementor-element-45a16db-12 .elementor-element-a79ed24 .elementor-wrapper{
         --video-aspect-ratio: 0;
+    }
+    #earn-with-us .elementor-element-016f2f3{
+        padding: 3px 0px !important;
+        margin-top: 159px;
+    }
+    #earn-with-us .elementor-element-77b5232{
+        text-align: center !important;
+    }
+    #earn-with-us .elementor-element-45a16db-22 .elementor-element-32aad3c>.elementor-element-populated{
+        padding: 2em !important;
+    }
+    #section05_graphics{
+        top: 589px;
+    }
+    #earn-with-us .elementor-element-45a16db-22{
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #earn-with-us .elementor-element-a7edf71{
+        top: -60px;
+    }
+    #earn-with-us .elementor-element-016f2f3{
+        padding: 28px 0px !important;
+    }
+    #earn-with-us .elementor-element-77b5232{
+        text-align: center !important;
+    }
+    #earn-with-us .elementor-element-45a16db-22 .elementor-element-32aad3c>.elementor-element-populated{
+        padding: 2em !important;
+    }
+    #section05_graphics{
+        top: 733px;
+    }
+    #earn-with-us .elementor-element-45a16db-22{
+        height: 1120px;
     }
 }
 
@@ -423,9 +466,60 @@ h1.entry-title {
 }
 #earn-with-us .elementor-element-45a16db {
     background: linear-gradient(90deg, #131a3f, #0b1129);
+    padding: 1em 0em 2em 0em;
+}
+#earn-with-us .elementor-element-016f2f3{
+    background-image: url(../../../../../images/Earn/MainBanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 58px 0px;
 }
 
 #earn-with-us .elementor-element-45a16db-12 {
     padding: 0em 2em 1em;
     background: linear-gradient(180deg, #13193b, #111737);
+}
+
+#earn-with-us .elementor-element-58a76da {
+    background-image: url(../../../../../images/Earn/Section04BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#earn-with-us .elementor-element-27efe67 {
+    background: #0d112a85;
+    padding: 2em;
+    border: 2px solid #30272c;
+}
+#earn-with-us .elementor-element-77b5232 img {
+    width: auto;
+}
+#earn-with-us .elementor-element-77b5232 {
+    text-align: initial;
+    top: -33px;
+}
+#earn-with-us .elementor-element-45a16db-22 .elementor-element-32aad3c>.elementor-element-populated{
+    padding: 2em 3em 1em 0em;
+}
+#earn-with-us .elementor-element-45a16db-22{
+    background: linear-gradient(180deg, #252d4f, #1b213d);
+}
+#earn-with-us .elementor-element-916f519{
+    background: linear-gradient(180deg, #1b213d, #14152c);
+    padding: 2em 0em;
+}
+#features-earn {
+    margin-top: 33px;
+    padding-left: 3em;
+}
+#section05_graphics {
+    position: absolute;
+}
+#color-gradient-sec5 {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+}
+#color-gradient-sec5 img {
+    width: 100%;
 }
