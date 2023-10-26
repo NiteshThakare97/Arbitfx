@@ -12,6 +12,13 @@
 	<link rel="alternate" type="application/rss+xml" title="Arbitfx &raquo; Feed" href="../../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Arbitfx &raquo; Comments Feed"
 		href="../../comments/feed/index.html" />
+
+	<!-- Bootstrap Cdn Link  -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+	<!-- Bootstrap Cdn Link  -->
+
 	<script type="text/javascript">
 		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/show.moxcreative.com\/centrix\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1" } };
 		/*! This file is auto-generated */
@@ -590,7 +597,8 @@
 
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="./template-kit/earn-with-us/index.html" class="elementor-item">Earn With Us</a>
+											<a href="./template-kit/earn-with-us/index.html" class="elementor-item">Earn
+												With Us</a>
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
@@ -680,7 +688,8 @@
 										</li> -->
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="template-kit/earn-with-us/index.html" class="elementor-item" tabindex="-1">Earn With Us</a>
+											<a href="template-kit/earn-with-us/index.html" class="elementor-item"
+												tabindex="-1">Earn With Us</a>
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
@@ -697,11 +706,13 @@
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="https://user.arbitfx.com/authenticate.aspx" target="_blank" class="elementor-item" tabindex="-1">Login</a>
+											<a href="https://user.arbitfx.com/authenticate.aspx" target="_blank"
+												class="elementor-item" tabindex="-1">Login</a>
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="https://user.arbitfx.com/gbtregister.aspx" target="_blank" class="elementor-item" tabindex="-1">Signup</a>
+											<a href="https://user.arbitfx.com/gbtregister.aspx" target="_blank"
+												class="elementor-item" tabindex="-1">Signup</a>
 										</li>
 										<!-- <li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-34">
@@ -753,7 +764,8 @@
 							data-id="a748dc9" data-element_type="widget" data-widget_type="button.default">
 							<div class="elementor-widget-container">
 								<div class="elementor-button-wrapper">
-									<a class="elementor-button elementor-button-link elementor-size-sm" href="https://user.arbitfx.com/authenticate.aspx" target="_blank">
+									<a class="elementor-button elementor-button-link elementor-size-sm"
+										href="https://user.arbitfx.com/authenticate.aspx" target="_blank">
 										<span class="elementor-button-content-wrapper">
 											<span class="elementor-button-text">Login</span>
 										</span>
@@ -767,7 +779,8 @@
 							data-id="a748dc9" data-element_type="widget" data-widget_type="button.default">
 							<div class="elementor-widget-container">
 								<div class="elementor-button-wrapper">
-									<a class="elementor-button elementor-button-link elementor-size-sm" href="https://user.arbitfx.com/gbtregister.aspx" target="_blank">
+									<a class="elementor-button elementor-button-link elementor-size-sm"
+										href="https://user.arbitfx.com/gbtregister.aspx" target="_blank">
 										<span class="elementor-button-content-wrapper">
 											<span class="elementor-button-text">Signup</span>
 										</span>
@@ -782,7 +795,33 @@
 	</div>
 	<div data-elementor-type="wp-post" data-elementor-id="1083" class="elementor elementor-1083"
 		data-elementor-post-type="envato_tk_templates">
-		<section
+
+		<section id="hero-banner">
+			<div class="w3-content w3-section">
+				<img class="mySlides" src="wp-content/images/Home/01/mainbanner2.jpg" style="width:100%">
+				<img class="mySlides" src="wp-content/images/Home/01/mainbanner1.jpg" style="width:100%">
+				<img class="mySlides" src="wp-content/images/Home/01/mainbanner3.jpg" style="width:100%">
+			  </div>
+			  
+			  <script>
+			  var myIndex = 0;
+			  carousel();
+			  
+			  function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				  x[i].style.display = "none";  
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+				setTimeout(carousel, 3000); // Change image every 2 seconds
+			  }
+			  </script>
+		</section>
+
+		<!-- <section
 			class="elementor-section elementor-top-section elementor-element elementor-element-8c1021b elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 			data-id="8c1021b" data-element_type="section"
 			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -795,7 +834,7 @@
 							data-id="08ff898" data-element_type="widget" data-widget_type="heading.default">
 							<div class="elementor-widget-container">
 								<style>
-									/*! elementor - v3.15.0 - 09-08-2023 */
+
 									.elementor-heading-title {
 										padding: 0;
 										margin: 0;
@@ -828,15 +867,13 @@
 										font-size: 59px
 									}
 								</style>
-								<!-- <h1 class="elementor-heading-title elementor-size-default">Artificial Intelligence for
-									Business Applications</h1> -->
 							</div>
 						</div>
 						<div class="elementor-element elementor-element-eddfa5e elementor-widget elementor-widget-text-editor"
 							data-id="eddfa5e" data-element_type="widget" data-widget_type="text-editor.default">
 							<div class="elementor-widget-container">
 								<style>
-									/*! elementor - v3.15.0 - 09-08-2023 */
+
 									.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
 										background-color: #69727d;
 										color: #fff
@@ -868,22 +905,10 @@
 										display: inline-block
 									}
 								</style>
-								<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-									ullamcorper mattis, pulvinar dapibus leo.</p> -->
+								
 							</div>
 						</div>
-						<!-- <div class="elementor-element elementor-element-ef6c7d1 elementor-widget elementor-widget-button"
-							data-id="ef6c7d1" data-element_type="widget" data-widget_type="button.default">
-							<div class="elementor-widget-container">
-								<div class="elementor-button-wrapper">
-									<a class="elementor-button elementor-button-link elementor-size-md" href="#">
-										<span class="elementor-button-content-wrapper">
-											<span class="elementor-button-text">Discover More</span>
-										</span>
-									</a>
-								</div>
-							</div>
-						</div> -->
+					
 					</div>
 				</div>
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-91e9ec0 elementor-hidden-mobile"
@@ -892,8 +917,8 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- <div class="container"> -->
+		</section> -->
+		
 		<section id="homesec3bg">
 			<section
 				class="elementor-section elementor-top-section elementor-element elementor-element-e869015 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
@@ -2690,7 +2715,8 @@
 											data-id="3db33cf" data-element_type="widget"
 											data-widget_type="heading.default">
 											<div class="elementor-widget-container">
-												<h4 class="elementor-heading-title elementor-size-default">Quick Links</h4>
+												<h4 class="elementor-heading-title elementor-size-default">Quick Links
+												</h4>
 											</div>
 										</div>
 										<div class="elementor-element elementor-element-6bb084c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
@@ -2719,7 +2745,8 @@
 
 															<span class="elementor-icon-list-icon">
 																<i aria-hidden="true" class="fas fa-square"></i> </span>
-															<span class="elementor-icon-list-text">Privacy policy </span>
+															<span class="elementor-icon-list-text">Privacy policy
+															</span>
 														</a>
 													</li>
 													<li class="elementor-icon-list-item">
@@ -2727,7 +2754,8 @@
 
 															<span class="elementor-icon-list-icon">
 																<i aria-hidden="true" class="fas fa-square"></i> </span>
-															<span class="elementor-icon-list-text">Legal disclaimer</span>
+															<span class="elementor-icon-list-text">Legal
+																disclaimer</span>
 														</a>
 													</li>
 													<!-- <li class="elementor-icon-list-item">
