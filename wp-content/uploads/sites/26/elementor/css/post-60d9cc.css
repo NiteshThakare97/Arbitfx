@@ -98,7 +98,7 @@
 }
 
 .elementor-60 .elementor-element.elementor-element-7e870c8>.elementor-element-populated {
-    padding: 6em 2em 2em 0em;
+    padding: 2em 2em 2em 0em;
 }
 
 .elementor-60 .elementor-element.elementor-element-816e523 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
@@ -518,7 +518,7 @@ body .elementor-60 .elementor-element.elementor-element-0910244 .elementor-label
     }
 
     .elementor-60 .elementor-element.elementor-element-82f16a0 {
-        width: 0%;
+        width: 30%;
     }
 
     .elementor-60 .elementor-element.elementor-element-5ab316c {
@@ -536,4 +536,17 @@ body .elementor-60 .elementor-element.elementor-element-0910244 .elementor-label
 
 .elementor-element-3db33cf h4 {
     text-align: center;
+}
+
+#link-tree a {
+    display: inline-grid;
+}
+#link-tree img {
+    width: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 1s;
+}
+#link-tree img:hover {
+    transform: scale(1.1);
 }
