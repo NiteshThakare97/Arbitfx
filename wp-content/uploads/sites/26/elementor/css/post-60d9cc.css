@@ -541,12 +541,12 @@ body .elementor-60 .elementor-element.elementor-element-0910244 .elementor-label
 #link-tree a {
     display: inline-grid;
 }
-#link-tree img {
-    width: 100px;
+#link-tree-img {
+    width: 50px;
     background-color: #fff;
     border-radius: 5px;
     transition: 1s;
 }
-#link-tree img:hover {
+#link-tree-img:hover {
     transform: scale(1.1);
 }
