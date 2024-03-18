@@ -607,11 +607,13 @@
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="https://arbitfx-help.freshdesk.com/support/solutions" class="elementor-item" target="_blank">Knowledge Base</a>
+											<a href="https://arbitfx-help.freshdesk.com/support/solutions"
+												class="elementor-item" target="_blank">Knowledge Base</a>
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="https://faq-arbitfx.com/" class="elementor-item" target="_blank">FAQ</a>
+											<a href="https://faq-arbitfx.com/" class="elementor-item"
+												target="_blank">FAQ</a>
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
@@ -721,15 +723,18 @@
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="https://arbitfx-help.freshdesk.com/support/solutions" class="elementor-item" target="_blank">Knowledge Base</a>
+											<a href="https://arbitfx-help.freshdesk.com/support/solutions"
+												class="elementor-item" target="_blank">Knowledge Base</a>
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="https://faq-arbitfx.com/" class="elementor-item" target="_blank">FAQ</a>
+											<a href="https://faq-arbitfx.com/" class="elementor-item"
+												target="_blank">FAQ</a>
 										</li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-											<a href="https://blog.arbitfx.com/" class="elementor-item" tabindex="-1">Blog</a>
+											<a href="https://blog.arbitfx.com/" class="elementor-item"
+												tabindex="-1">Blog</a>
 										</li>
 										<!-- <li
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
@@ -1633,7 +1638,8 @@
 															content: "" !important
 														}
 													</style>
-													<form class="elementor-form" method="post" name="New Form" action="javascript:void(0);" onsubmit="sendEmail()">
+													<form class="elementor-form" method="post" name="New Form"
+														action="javascript:void(0);" onsubmit="sendEmail()">
 														<input type="hidden" name="post_id" value="177" />
 														<input type="hidden" name="form_id" value="c19891c" />
 														<input type="hidden" name="referer_title" value="Contact Us" />
@@ -1644,7 +1650,7 @@
 															class="elementor-form-fields-wrapper elementor-labels-above">
 															<div
 																class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100">
-																
+
 																<input size="1" type="text" name="form_fields[name]"
 																	id="form-field-name"
 																	class="elementor-field elementor-size-md  elementor-field-textual"
@@ -1652,7 +1658,7 @@
 															</div>
 															<div
 																class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
-																
+
 																<input size="1" type="tel" name="form_fields[phone]"
 																	id="form-field-phone"
 																	class="elementor-field elementor-size-md  elementor-field-textual"
@@ -1663,7 +1669,7 @@
 															</div>
 															<div
 																class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-field_996a277 elementor-col-100 elementor-field-required">
-																
+
 																<input size="1" type="email"
 																	name="form_fields[field_996a277]"
 																	id="form-field-field_996a277"
@@ -1673,7 +1679,7 @@
 															</div>
 															<div
 																class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-																
+
 																<textarea
 																	class="elementor-field-textual elementor-field  elementor-size-md"
 																	name="form_fields[message]" id="form-field-message"
@@ -1701,17 +1707,18 @@
 															const email = document.getElementById('form-field-field_996a277').value;
 															const phone = document.getElementById('form-field-phone').value;
 															// Add more form field values as needed
-													
+
 															const subject = "Subject for your email";
 															const message = document.getElementById('form-field-message').value;
-													
-															const mailtoLink = `mailto:info@arbitfx.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone: ' + phone)}`;
-															
-															// Open the default email client with the mailto link
-															window.location.href = mailtoLink;
+
+															// Construct the mail and send Mail directly to a particular mail Id.
+															const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=info@arbitfx.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone No.: ' + phone)}`;
+
+															// Open Gmail compose window with the mailto link
+															window.open(mailtoLink);
 														}
 													</script>
-													
+
 												</div>
 											</div>
 										</div>
@@ -1919,7 +1926,8 @@
 											data-id="96395f0" data-element_type="widget"
 											data-widget_type="heading.default">
 											<div class="elementor-widget-container">
-												<h4 class="elementor-heading-title elementor-size-default">Social Links</h4>
+												<h4 class="elementor-heading-title elementor-size-default">Social Links
+												</h4>
 											</div>
 										</div>
 										<div class="elementor-element elementor-element-816e523 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
@@ -1951,8 +1959,12 @@
 													</li>
 													<div id="link-tree">
 														<a href="https://linktr.ee/arbitfx7" target="_blank">
-															<span class="elementor-icon-list-text" style="font-size: 20px;">Linktree <img src="../../wp-content/images/Home/Footer/linktree-logo-icon.svg" alt="" style="width: 16px;"></span>
-															<img src="../../wp-content/images/arbitfx-linktree.png" alt="" id="link-tree-img">
+															<span class="elementor-icon-list-text"
+																style="font-size: 20px;">Linktree <img
+																	src="../../wp-content/images/Home/Footer/linktree-logo-icon.svg"
+																	alt="" style="width: 16px;"></span>
+															<img src="../../wp-content/images/arbitfx-linktree.png"
+																alt="" id="link-tree-img">
 														</a>
 													</div>
 
@@ -2664,8 +2676,8 @@
 											<i class="fab fa-youtube"></i> </a>
 									</span>
 									<span class="elementor-grid-item">
-										<a class="elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-animation-float elementor-repeater-item-50a078a" href="https://t.me/Arbitfxchannel"
-											target="_blank">
+										<a class="elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-animation-float elementor-repeater-item-50a078a"
+											href="https://t.me/Arbitfxchannel" target="_blank">
 											<span class="elementor-screen-only">Telegram</span>
 											<i class="fab fa-telegram"></i> </a>
 									</span>
@@ -2697,9 +2709,9 @@
 	<script type='text/javascript' src='../../wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2'
 		id='jquery-ui-core-js'></script>
 	<script type='text/javascript' id='qi-addons-for-elementor-script-js-extra'>
-		
+
 		var qodefQiAddonsGlobal = { "vars": { "adminBarHeight": 0, "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>", "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>", "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>" } };
-		
+
 	</script>
 	<script type='text/javascript'
 		src='../../wp-content/plugins/qi-addons-for-elementor/assets/js/main.min9b30.js?ver=6.3.1'
@@ -2721,9 +2733,9 @@
 		src='../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts5b0a.js?ver=2.9.0'
 		id='ekit-widget-scripts-js'></script>
 	<script type='text/javascript' id='eael-general-js-extra'>
-		
+
 		var localize = { "ajaxurl": "https:\/\/show.moxcreative.com\/centrix\/wp-admin\/admin-ajax.php", "nonce": "1ac5d4a52a", "i18n": { "added": "Added ", "compare": "Compare", "loading": "Loading..." }, "eael_translate_text": { "required_text": "is a required field", "invalid_text": "Invalid", "billing_text": "Billing", "shipping_text": "Shipping", "fg_mfp_counter_text": "of" }, "page_permalink": "https:\/\/show.moxcreative.com\/centrix\/template-kit\/contact-us\/", "cart_redirectition": "", "cart_page_url": "", "el_breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } };
-		
+
 	</script>
 	<script type='text/javascript'
 		src='../../wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min6281.js?ver=5.8.6'
@@ -2762,10 +2774,10 @@
 		src='../../wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor9b30.js?ver=6.3.1'
 		id='qi-addons-for-elementor-elementor-js'></script>
 	<script type='text/javascript' id='bdt-uikit-js-extra'>
-		
+
 		var element_pack_ajax_login_config = { "ajaxurl": "https:\/\/show.moxcreative.com\/centrix\/wp-admin\/admin-ajax.php", "language": "en", "loadingmessage": "Sending user info, please wait...", "unknownerror": "Unknown error, make sure access is correct!" };
 		var ElementPackConfig = { "ajaxurl": "https:\/\/show.moxcreative.com\/centrix\/wp-admin\/admin-ajax.php", "nonce": "9ae9fce9da", "data_table": { "language": { "lengthMenu": "Show _MENU_ Entries", "info": "Showing _START_ to _END_ of _TOTAL_ entries", "search": "Search :", "paginate": { "previous": "Previous", "next": "Next" } } }, "contact_form": { "sending_msg": "Sending message please wait...", "captcha_nd": "Invisible captcha not defined!", "captcha_nr": "Could not get invisible captcha response!" }, "mailchimp": { "subscribing": "Subscribing you please wait..." }, "elements_data": { "sections": [], "columns": [], "widgets": [] } };
-		
+
 	</script>
 	<script type='text/javascript'
 		src='../../wp-content/plugins/bdthemes-element-pack-lite/assets/js/bdt-uikit.min2916.js?ver=3.13.1'
